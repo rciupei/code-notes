@@ -2,7 +2,7 @@
 title: Example note
 tags:
   - example
-emoji: 👋
+
 link: https://zander.wtf
 ---
 
