@@ -1,18 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-code-notes',
-    description: `A starter for gatsby-theme-code-notes`,
-    author: 'Zander',
+    title: "gatsby-starter-code-notes",
+    description: `Notes on code`,
+    author: "Razvan",
+    showDescriptionInSidebar: true,
+    logo:
+      "https://raw.githubusercontent.com/mrmartineau/gatsby-theme-code-notes/master/assets/logo.png",
   },
   plugins: [
     {
-      resolve: 'gatsby-theme-code-notes',
+      resolve: "gatsby-theme-code-notes",
       options: {
-        contentPath: 'notes',
-        basePath: '/',
-        showThemeInfo: true,
-        showDescriptionInSidebar: true,
+        contentPath: "notes",
+        basePath: "/",
+        showThemeInfo: false,
+        showDescriptionInSidebar: false,
       },
     },
   ],
-}
+};
