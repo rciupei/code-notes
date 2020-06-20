@@ -6,11 +6,11 @@ tags:
   - example
 ---
 
+## first
+
 This is a test note.
 
 Here is the code
-
-## first
 
 ```js
 {
@@ -23,6 +23,10 @@ Here is the code
   },
 },
 ```
+
+### nested
+
+abc
 
 ## second
 

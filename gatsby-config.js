@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "gatsby-starter-code-notes",
+    title: "My notes",
     description: `Notes on code`,
     author: "Razvan",
     showDescriptionInSidebar: true,
