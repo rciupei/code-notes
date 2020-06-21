@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-edb3d1679af908b8ad6b.js"
   },
   {
-    "url": "app-f4eac80d6aac734972a3.js"
+    "url": "app-83edfa494253ab2748df.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a2d39a1a20b744f7e0c305e3131b3ba4"
+    "revision": "71385e6f0feb375d490fc917cfa26ffe"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
@@ -51,7 +51,36 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "5e68751269c577239512e5df9e24f23c"
+    "revision": "7b39d8fd7e6083c4473f6d6dd2db18ae"
+  },
+  {
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-a4194cfff34a5d6ca3eb.js"
+  },
+  {
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-5f554f51ae2bdf2fdfce.js"
+  },
+  {
+    "url": "page-data/index/page-data.json",
+    "revision": "406abd0ee0910c009272d1f77121f6cb"
+  },
+  {
+    "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-80a330c49c978a6a8506.js"
+  },
+  {
+    "url": "page-data/tag/css/page-data.json",
+    "revision": "75ee36a63aa178a9f58b696b201f212b"
+  },
+  {
+    "url": "page-data/tag/example/page-data.json",
+    "revision": "e0b2a9b9750d1d9f6b1b5f5ac27ef1b1"
+  },
+  {
+    "url": "page-data/tag/flexbox/page-data.json",
+    "revision": "b0189904ee099190b1fceefc31c0fda4"
+  },
+  {
+    "url": "page-data/tag/test/page-data.json",
+    "revision": "58a0ad6b36695c79f88bc23465bc1c49"
   },
   {
     "url": "manifest.webmanifest",
@@ -148,7 +177,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/code-notes/app-f4eac80d6aac734972a3.js`))) {
+  if (!resources || !(await caches.match(`/code-notes/app-83edfa494253ab2748df.js`))) {
     return await fetch(event.request)
   }
 
