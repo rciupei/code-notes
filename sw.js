@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-edb3d1679af908b8ad6b.js"
   },
   {
-    "url": "app-08b770ed5021376b8647.js"
+    "url": "app-2d4a1d2fe80dc6d4bb4e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3206750f9a1dcbe041b0e4fdfc5f5419"
+    "revision": "87be86a2745ed450cc2118f9dc8d01b1"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "0f03d652c1fd02499dd8ae70efb69a61"
+    "revision": "155571d0a59d11d0a1aed36de7dab9bd"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-fa6c1d476f05a190bd44.js"
@@ -72,18 +72,18 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/example-note/page-data.json",
-    "revision": "4d3dbc37cfe3222896166b26262da8d6"
+    "revision": "6c7cdbd82428859250b32f18d9667b90"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-a4194cfff34a5d6ca3eb.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "691f7a6f783fe42d5706ff751c0555f1"
+    "revision": "b1fb959cf7cf37e52a7e4351b8093af5"
   },
   {
     "url": "page-data/my-note/page-data.json",
-    "revision": "a58b930fba4bb93625d83adcd798484f"
+    "revision": "ca1239879a8d3350665ec21f53560989"
   },
   {
     "url": "page-data/travis/page-data.json",
@@ -98,7 +98,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/tag/example/page-data.json",
-    "revision": "52fc1ed380194ca40e54cfd0ff6a47d4"
+    "revision": "1ebc90e237292d3a1772468f373aa25e"
   },
   {
     "url": "page-data/tag/flexbox/page-data.json",
@@ -110,7 +110,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2e09de9b099bf4bf234bbff623212149"
+    "revision": "24588687e6986ea6d72785d6c33dc7a4"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -203,7 +203,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/code-notes/app-08b770ed5021376b8647.js`))) {
+  if (!resources || !(await caches.match(`/code-notes/app-2d4a1d2fe80dc6d4bb4e.js`))) {
     return await fetch(event.request)
   }
 
