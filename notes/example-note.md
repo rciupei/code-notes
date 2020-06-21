@@ -1,5 +1,5 @@
 ---
-title: Example note updated
+title: Example note updated 2
 tags:
   - example
 ---
