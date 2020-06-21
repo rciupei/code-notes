@@ -25,7 +25,7 @@ module.exports = {
         name: `Code Notes`,
         short_name: `CodeNotes`,
         description: `Notes on code. My memory bank.`,
-        start_url: `/index.html`,
+        start_url: `index.html`,
         background_color: `hsl(210, 38%, 95%)`,
         theme_color: `hsl(345, 100%, 69%)`,
         display: `standalone`,
