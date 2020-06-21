@@ -13,7 +13,9 @@ module.exports = {
       options: {
         contentPath: "notes",
         basePath: "/",
-        showThemeInfo: false,
+        gitRepoContentPath:
+          "https://github.com/rciupei/code-notes/tree/master/notes",
+        showThemeInfo: true,
         showDescriptionInSidebar: false,
       },
     },
@@ -27,7 +29,7 @@ module.exports = {
         background_color: `hsl(210, 38%, 95%)`,
         theme_color: `hsl(345, 100%, 69%)`,
         display: `standalone`,
-        // icon: `static/logo.png`,
+        icon: `static/logo.png`,
       },
     },
     {
