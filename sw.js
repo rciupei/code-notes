@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-edb3d1679af908b8ad6b.js"
   },
   {
-    "url": "app-cff0b2fc86bc2768c876.js"
+    "url": "app-7056e1b4d0078ff2896b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "247e9c1677a7ec30de7c07c7d71b88d4"
+    "revision": "421e21bd89e6b73aa118e1c3341a1d02"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "d454263c18b31a8cdb41f63ebcae6370"
+    "revision": "7de564cd9312caafbe3f7e5d03410871"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-fa6c1d476f05a190bd44.js"
@@ -72,7 +72,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/example-note/page-data.json",
-    "revision": "81437b43337f638c9a4e080fa63e649c"
+    "revision": "6679fc5db9a1891f706f69ed1e673fc7"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-notes-js-a4194cfff34a5d6ca3eb.js"
@@ -195,7 +195,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/code-notes/app-cff0b2fc86bc2768c876.js`))) {
+  if (!resources || !(await caches.match(`/code-notes/app-7056e1b4d0078ff2896b.js`))) {
     return await fetch(event.request)
   }
 
