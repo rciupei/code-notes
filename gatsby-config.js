@@ -14,7 +14,7 @@ module.exports = {
         contentPath: "notes",
         basePath: "/",
         gitRepoContentPath:
-          "https://github.com/rciupei/code-notes/tree/master/notes",
+          "https://github.com/rciupei/code-notes/tree/master/notes/",
         showThemeInfo: true,
         showDescriptionInSidebar: false,
       },
