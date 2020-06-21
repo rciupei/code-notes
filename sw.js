@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3c8a2939ea98b31ed1d8.js"
+    "url": "webpack-runtime-f7539ada4bacf85b84ec.js"
   },
   {
     "url": "framework-8dcecaaefd71e2213eb2.js"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "1bfc9850-edb3d1679af908b8ad6b.js"
   },
   {
-    "url": "app-dc7318f1a525c8541f61.js"
+    "url": "app-cff0b2fc86bc2768c876.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e8f25e52dcae04590b07a4accfee3f5a"
+    "revision": "247e9c1677a7ec30de7c07c7d71b88d4"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
@@ -51,13 +51,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "5d0eb9a2bd5e32ceb45b166cb52b9ed8"
+    "revision": "d454263c18b31a8cdb41f63ebcae6370"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-pages-404-tsx-fa6c1d476f05a190bd44.js"
   },
   {
-    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-44f4fe7f0f956fd3a48c.js"
+    "url": "6f89bbd25ed84b02c1c782caf7174e918b7ab15f-f98938af3457473eac07.js"
   },
   {
     "url": "page-data/404/page-data.json",
@@ -79,7 +79,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "a9610547d9331fddf5af82328214a4f0"
+    "revision": "7244d3f0864439f6fe32acea62398950"
   },
   {
     "url": "page-data/my-note/page-data.json",
@@ -87,18 +87,18 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/travis/page-data.json",
-    "revision": "7b2c46669f79f7e1ffe088d1130c9921"
+    "revision": "f65bd9a155f16bd5101c97c2dcd6d63d"
   },
   {
     "url": "component---node-modules-gatsby-theme-code-notes-src-templates-tag-page-js-80a330c49c978a6a8506.js"
   },
   {
     "url": "page-data/tag/example/page-data.json",
-    "revision": "5f03541a70b6f4c683d97d6c58baa910"
+    "revision": "1d67c5bd0925a2b16e2bee409e5d3495"
   },
   {
     "url": "page-data/tag/test/page-data.json",
-    "revision": "ded0710cfa0eb0dbeaf1e2b05c682b50"
+    "revision": "5f2296a6f09aada5169ec5842a33293a"
   },
   {
     "url": "manifest.webmanifest",
@@ -195,7 +195,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/code-notes/app-dc7318f1a525c8541f61.js`))) {
+  if (!resources || !(await caches.match(`/code-notes/app-cff0b2fc86bc2768c876.js`))) {
     return await fetch(event.request)
   }
 
