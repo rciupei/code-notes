@@ -61,23 +61,23 @@ Also strings can be used for [Google Page][google]
 ## Markdown Images
 
 ```markdown
-syntax is ![alternate tag](/logo.png "This is the tooltip")
+syntax is ![alternate tag](/code-notes/logo.png "This is the tooltip")
 
 ![This is the logo][logo]
 
-[here is the link to the logo](/logo.png)
+[here is the link to the logo](/code-notes/logo.png)
 
 [logo]: /logo.png
 ```
 
 The logo is located in the static folder
 
-![alternate tag](/logo.png "This is the tooltip")
+![alternate tag](/code-notes/logo.png "This is the tooltip")
 
 ![This is the logo][logo]
 
 [here is the link to the logo](/logo.png)
 
-[logo]: /logo.png
+[logo]: /code-notes/logo.png
 
 ## Lists - Ordered, Unordered, Bullets and Nesting
