@@ -81,3 +81,107 @@ The logo is located in the static folder
 [logo]: /code-notes/logo.png
 
 ## Lists - Ordered, Unordered, Bullets and Nesting
+
+Unordered lists
+
+```markdown
+- a
+- b
+- c
+
+or \* or +
+
+- a
+
+* b
+```
+
+- a
+- b
+- c
+
+or '\*' or '+'
+
+- a
+
+* b
+
+Ordered lists
+
+```markdown
+1. first
+   - nested
+     - nested
+1. second
+1. third
+```
+
+1. first
+   - nested
+     - nested
+1. second
+1. third
+
+## Line Breaks, Horizontal Rules and Blockquotes
+
+```markdown
+Wes<br/>
+is cool
+
+Horizontal rules
+
+---
+
+Blockquotes
+
+> Here is a blockquote
+```
+
+Wes<br/>
+is cool
+
+Horizontal rules
+
+---
+
+> Here is a blockquote
+
+## Code Blocks + Syntax Highlighting
+
+Here is my code
+
+```markdown
+Hey. Did you try `var x = 100` ?
+```
+
+Hey. Did you try `var x = 100` ?
+
+```diff
+var x = 100
+- var y = 200
++ var y = 300
+```
+
+## Tables
+
+```markdown
+| Name | Age |
+| :--- | :-- | //or only dashes without colon
+| John | 35 |
+| Jane | 25 |
+```
+
+| Name | Age |
+| ---- | --- |
+| John | 35  |
+| Jane | 25  |
+
+## Checkboxes
+
+```markdown
+- [x] Todo 1
+- [ ] Todo 2
+```
+
+- [x] Todo 1
+- [ ] Todo 2
