@@ -1,6 +1,6 @@
 ---
 title: Useful sites
-emoji:📚
+emoji: 📚
 tags:
   - css
   - js
