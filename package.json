@@ -17,7 +17,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/rciupei/code-notes.git"
   },
   "dependencies": {
-    "gatsby": "^2.24.63",
+    "gatsby": "^2.29.3",
     "gatsby-plugin-manifest": "^2.4.31",
     "gatsby-plugin-offline": "^3.2.28",
     "gatsby-theme-code-notes": "^1.15.1",
